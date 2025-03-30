@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path" : "pages/index/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "主页"
+			}
+		},
+		{
+			"path" : "pages/me/me",
+			"style" : 
+			{
+				
+				"navigationBarTitleText" : "我的"
+			}
+		},
+		{
+			"path" : "pages/vote/vote",
+			"style" : 
+			{
+				"navigationBarTitleText" : "投票"
+			}
+		},
+		{
+			"path" : "pages/RegistrationDetails/RegistrationDetails",
+			"style" : 
+			{
+				"navigationBarTitleText" : "详情页面"
+			}
+		},
+		{
+			"path" : "pages/me/Registration-info/Registration-info",
+			"style" : 
+			{
+				"navigationBarTitleText" : "报名信息"
+			}
+		},
+		{
+			"path" : "pages/me/Details/Details",
+			"style" : 
+			{
+				"navigationBarTitleText" : "详情页面"
+			}
+		},
+		{
+			"path" : "pages/me/MyInfo/MyInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的信息"
+			}
+		}
+		
+	],
+	"tabBar": {
+    "list": [
+      {
+		"iconPath": "/static/homr.png",
+        "pagePath": "pages/index/home",
+        "text": "首页"
+      },
+      {
+		"iconPath": "/static/vode.png",
+        "pagePath": "pages/vote/vote",
+        "text": "投票"
+      },
+      {
+		"iconPath": "/static/me.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
